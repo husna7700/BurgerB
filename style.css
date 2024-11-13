@@ -1,0 +1,45 @@
+/* General Styles */
+span {
+    color: red;
+}
+
+img.slide {
+    height: 600px;
+   
+}
+
+/* For tablets and smaller devices */
+@media (max-width: 991px) {
+    /* Adjust carousel slide image height */
+    img.slide {
+        height: 400px; /* Reduced height for better fit on tablets */
+    }
+
+    /* Navbar */
+    .navbar-brand h1 {
+        font-size: 1.5rem;
+    }
+
+    .navbar-nav .nav-item h5 {
+        font-size: 1rem;
+    }
+
+    /* Cards */
+    .card {
+        width: 100%;
+        margin: 0 auto;
+        height: auto; /* Remove fixed height for better flexibility */
+    }
+
+    .card-img-top {
+        height: 180px; /* Adjust card image height */
+    }
+
+    .card-body h5 {
+        font-size: 1.2rem;
+    }
+
+    .card-body p {
+        font-size: 0.9rem;
+    }
+}
